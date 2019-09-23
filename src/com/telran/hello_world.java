@@ -1,4 +1,6 @@
-public class helloworld {
+package com.telran;
+
+public class hello_world {
 
     public static final String MY_NAME = "Vadim";
 
