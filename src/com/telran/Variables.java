@@ -1,6 +1,7 @@
 package com.telran;
 
 import javax.swing.*;
+import com.telran.ReadLine;
 
 public class Variables {
     public static void main(String[] args) {
@@ -52,5 +53,9 @@ public class Variables {
 		System.out.println("Wasja has 3 times apples more then Petro: " + WasjaHasApples + " apples.");
 		System.out.println("Maria has 7 apples less then Wasja: " + MariaHasApples + " apples.");
 		System.out.println("All together have " + AllApplesAre + " apples. Where " + MariaPlusPetroHaveApples + " only have both Maria and Petro.");
+
+		ReadLine readLine = new ReadLine();
+		readLine.ReadAndPrintString();
     }
+
 }
