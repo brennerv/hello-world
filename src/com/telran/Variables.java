@@ -42,7 +42,7 @@ public class Variables {
 			All apples ?
 			M + p ?
 		*/
-		
+
 		int PetroHasApples = 5;
 		int WasjaHasApples = 3 * PetroHasApples;
 		int MariaHasApples = WasjaHasApples - 7;
@@ -54,8 +54,7 @@ public class Variables {
 		System.out.println("Maria has 7 apples less then Wasja: " + MariaHasApples + " apples.");
 		System.out.println("All together have " + AllApplesAre + " apples. Where " + MariaPlusPetroHaveApples + " only have both Maria and Petro.");
 
-		ReadLine readLine = new ReadLine();
-		readLine.ReadAndPrintString();
+		ReadLine.ReadAndPrintString();
     }
 
 }
